@@ -1,0 +1,212 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="content-language" content="en-us">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<title>RailwayCRM </title>
+
+<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+<link type="text/css" rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/datatable/datatables.min.css"/>
+<link type="text/css" rel="stylesheet" href="css/buttons.bootstrap5.min.css">
+<link type="text/css" rel="stylesheet" href="css/style.css?v=1">
+<link type="text/css" rel="stylesheet" href="css/responsive.css?v=1">
+<link type="image/ico" rel="icon" href="img/fabicon.png">
+</head>
+
+<body>
+<div class="wrap">
+    <aside class="menubar">
+        <div class="header_title">
+             <img src="images/logo.png" alt="">
+        </div>
+        <div class="menus">
+             <div class="category_filter">
+                  <h2>Menus </h2>
+                  <div id="accordian">
+                      <ul>
+                            <li class="active">
+                                 <h3><a href="index.html"> <span><i class="fa fa-tachometer"></i></span> Dashboard</a></h3>
+                            </li>
+                      </ul>
+                      <ul>
+                            <li>
+                                 <h3><a href="#"><span><i class="fa fa-user"></i></span>Admin</a></h3>
+                                 <ul>
+                                      <li><a href="admin-role.html">Admin Role</a></li>
+                                      <li><a href="admin-users.html">Admin Users</a></li>
+                                      <li><a href="manage-access.html">Manage Access</a></li>
+                                 </ul>
+                            </li>
+                            <li>
+                                 <h3><a href="#"><span><i class="fa fa-shield"></i></span>Login History</a></h3>
+                                 <ul>
+                                      <li><a href="my-history.html">My History</a></li>
+                                      <li><a href="all-history.html">All History</a></li>
+                                 </ul>
+                            </li>
+                            <li>
+                                 <h3><a href="#"><span><i class="fa fa-product-hunt"></i></span>Product</a></h3>
+                                 <ul>
+                                      <li><a href="add-product.html">Add Product</a></li>
+                                      <li><a href="all-product.html">All Product</a></li>
+                                      <li><a href="category-master.html">Category Master</a></li>
+                                      <li><a href="service-master.html">Service Master</a></li>
+                                      <li><a href="brand-master.html">Brand Master</a></li>
+                                      <li><a href="uom-master.html">UOM Master</a></li>
+                                 </ul>
+                            </li>
+                            <li>
+                                 <h3><a href="#"><span><i class="fa fa-snowflake-o"></i></span>Vendor</a></h3>
+                                 <ul>
+                                      <li><a href="registration-link.html">Registration Link</a></li>
+                                      <li><a href="vandor-type.html">Vendor Type</a></li>
+                                      <li><a href="add-vandor.html">Add Vandor</a></li>
+                                      <li><a href="vandor-list.html">Vandor List</a></li>
+                                      <li><a href="terms-and-condition.html">Terms & Condition</a></li>
+                                 </ul>
+                            </li>
+                            <li>
+                                 <h3><a href="#"><span><i class="fa fa-cubes"></i></span>Branch</a></h3>
+                                 <ul>
+                                      <li><a href="state-master.html">State</a></li>
+                                      <li><a href="pincode-master.html">PIN Code</a></li>
+                                      <li><a href="branch.html">All Branch</a></li>
+                                      <li><a href="employee.html">Employee</a></li>
+                                      <li><a href="branch-product-request.html">Product Request</a></li>
+                                      <li><a href="service-request.html">Service Request</a></li>
+                                 </ul>
+                            </li>
+                            <li>
+                                 <h3><a href="#"><span><i class="fa fa-bar-chart"></i></span>Stock Management</a></h3>
+                                 <ul>
+                                      <li><a href="stock-list.html">Stock List</a></li>
+                                      <li><a href="stock-report.html">Stock Report</a></li>
+                                 </ul>
+                            </li>
+                      </ul>
+                  </div>
+              </div>
+        </div>
+        <div class="aside-footer">
+             <span>&copy 2022 | RailwayCRM </span>
+        </div>
+   </aside>
+
+   <div class="backdrop-layout"></div>
+   <div class="main_body">
+        <div class="topmenubar">
+             <div class="row justifu-content-right">
+                  <div class="col-sm-10 col-lg-11 col-8">
+                       <button class="collapse_nav"><i class="fa fa-bars"></i></button>
+                  </div>
+                  <div class="col-sm-2 col-lg-1 col-4 text-right">
+                  <div class="topbarlink">
+                            <ul class="others_link">
+                                 <li title="Notifications" id="notification_pop">
+                                      <label class="notification_box" title="Notification"><i class="fa fa-bell-o"></i> <span class="badge">2</span></label>
+                                      <div class="dropdown_bx notification_bx">
+                                           <h3 class="dropdown_bx_title">Notification</h3>
+                                           <div class="dropdown_bx_body">
+                                                <ul class="notification_list">
+                                                     <li>
+                                                          <a href="#">
+                                                               <div class="noti_dtls">
+                                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                                               </div>
+                                                          </a>
+                                                     </li>
+                                                     <li>
+                                                          <a href="#">
+                                                               <div class="noti_dtls">
+                                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                                               </div>
+                                                          </a>
+                                                     </li>
+                                                    
+                                                </ul>
+                                           </div>
+                                           <!-- <div class="dropdown_footer">
+                                                <a href="notifications.html">See All</a>
+                                           </div> -->
+                                      </div>
+                                 </li>
+                            </ul>
+                            <div class="profile_sec">
+                                 <div class="display-middle">
+                                      <div class="profile_img" id="profile_click"  title="Dipan Karmakar">
+                                           <img src="images/user.jpg" alt="">
+                                      </div>
+                                 </div>
+                                 <div class="dropdown_profile">
+                                      <ul>
+                                           <li><a href="profile.html"><span><i class="fa fa-user"></i></span> Profile</a></li>
+                                           <li><a href="change-password.html"><span><i class="fa fa-lock"></i></span> Change Password</a></li>
+                                           <li><a href="login.html"><span><i class="fa fa-sign-out"></i></span> Logout</a></li>
+                                      </ul>
+                                 </div>
+                            </div>
+                       </div>
+                  </div>
+             </div>
+        </div>
+<div class="dash-container">              
+    <div class="row justify-content-start">  
+        <div class="col-lg-12">
+            <div class="dash_card">
+                <h1 class="title">Products Under Vendor
+                    <a href="vandor-list.php" class="btn btn_common"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> Back</a>
+                </h1>
+                <div class="crd_body">
+                    <div class="table-responsive">
+                        <table class="table datatable">
+                            <thead>  
+                                <tr>
+                                <th style="width:10px;" class="text-center"><input type="checkbox" class="form-check-input" name="allCheck" id="allCheck"></th>
+                                <th>Sl No</th> 
+                                <th>Product Name</th>
+                                <th>SKU code</th>
+                                <th style="min-width:60px;width:60px;">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody> 
+                                <tr>
+                                    <td><input type="checkbox" class="form-check-input" name="allCheck" id="allCheck"></td>
+                                    <td>1</td>
+                                    <td>Laminates</td>
+                                    <td>PY079</td>
+                                    <td>
+                                         <ul class="button-ico-list">
+                                            <li><a href="#" class="del_btn" title="Delete"><i class="fa fa-trash-o" ></i></a></li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            
+                            </tbody> 
+                        </table>
+                    </div>
+                    
+                    <button type="button" class="btn btn_common">Add Product</button> 
+                </div>
+            </div>
+        </div>   
+    </div>
+</div>
+
+
+</div>
+</div>
+
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="js/datatable/pdfmake.min.js"></script>
+<script type="text/javascript" src="js/datatable/vfs_fonts.js"></script>
+<script type="text/javascript" src="js/datatable//datatables.min.js"></script>
+<script type="text/javascript" src="js/custom.js?v=1"></script>
+</body>
+</html>
+

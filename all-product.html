@@ -1,0 +1,308 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="content-language" content="en-us">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<title>RailwayCRM </title>
+
+<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+<link type="text/css" rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/datatable/datatables.min.css"/>
+<link type="text/css" rel="stylesheet" href="css/buttons.bootstrap5.min.css">
+<link type="text/css" rel="stylesheet" href="css/style.css?v=1">
+<link type="text/css" rel="stylesheet" href="css/responsive.css?v=1">
+<link type="image/ico" rel="icon" href="img/fabicon.png">
+</head>
+
+<body>
+<div class="wrap">
+    <aside class="menubar">
+        <div class="header_title">
+             <img src="images/logo.png" alt="">
+        </div>
+        <div class="menus">
+             <div class="category_filter">
+                  <h2>Menus </h2>
+                  <div id="accordian">
+                      <ul>
+                            <li class="active">
+                                 <h3><a href="index.html"> <span><i class="fa fa-tachometer"></i></span> Dashboard</a></h3>
+                            </li>
+                      </ul>
+                      <ul>
+                            <li>
+                                 <h3><a href="#"><span><i class="fa fa-user"></i></span>Admin</a></h3>
+                                 <ul>
+                                      <li><a href="admin-role.html">Admin Role</a></li>
+                                      <li><a href="admin-users.html">Admin Users</a></li>
+                                      <li><a href="manage-access.html">Manage Access</a></li>
+                                 </ul>
+                            </li>
+                            <li>
+                                 <h3><a href="#"><span><i class="fa fa-shield"></i></span>Login History</a></h3>
+                                 <ul>
+                                      <li><a href="my-history.html">My History</a></li>
+                                      <li><a href="all-history.html">All History</a></li>
+                                 </ul>
+                            </li>
+                            <li>
+                                 <h3><a href="#"><span><i class="fa fa-product-hunt"></i></span>Product</a></h3>
+                                 <ul>
+                                      <li><a href="add-product.html">Add Product</a></li>
+                                      <li><a href="all-product.html">All Product</a></li>
+                                      <li><a href="category-master.html">Category Master</a></li>
+                                      <li><a href="service-master.html">Service Master</a></li>
+                                      <li><a href="brand-master.html">Brand Master</a></li>
+                                      <li><a href="uom-master.html">UOM Master</a></li>
+                                 </ul>
+                            </li>
+                            <li>
+                                 <h3><a href="#"><span><i class="fa fa-snowflake-o"></i></span>Vendor</a></h3>
+                                 <ul>
+                                      <li><a href="registration-link.html">Registration Link</a></li>
+                                      <li><a href="vandor-type.html">Vendor Type</a></li>
+                                      <li><a href="add-vandor.html">Add Vandor</a></li>
+                                      <li><a href="vandor-list.html">Vandor List</a></li>
+                                      <li><a href="terms-and-condition.html">Terms & Condition</a></li>
+                                 </ul>
+                            </li>
+                            <li>
+                                 <h3><a href="#"><span><i class="fa fa-cubes"></i></span>Branch</a></h3>
+                                 <ul>
+                                      <li><a href="state-master.html">State</a></li>
+                                      <li><a href="pincode-master.html">PIN Code</a></li>
+                                      <li><a href="branch.html">All Branch</a></li>
+                                      <li><a href="employee.html">Employee</a></li>
+                                      <li><a href="branch-product-request.html">Product Request</a></li>
+                                      <li><a href="service-request.html">Service Request</a></li>
+                                 </ul>
+                            </li>
+                            <li>
+                                 <h3><a href="#"><span><i class="fa fa-bar-chart"></i></span>Stock Management</a></h3>
+                                 <ul>
+                                      <li><a href="stock-list.html">Stock List</a></li>
+                                      <li><a href="stock-report.html">Stock Report</a></li>
+                                 </ul>
+                            </li>
+                      </ul>
+                  </div>
+              </div>
+        </div>
+        <div class="aside-footer">
+             <span>&copy 2022 | RailwayCRM </span>
+        </div>
+   </aside>
+
+   <div class="backdrop-layout"></div>
+   <div class="main_body">
+        <div class="topmenubar">
+             <div class="row justifu-content-right">
+                  <div class="col-sm-10 col-lg-11 col-8">
+                       <button class="collapse_nav"><i class="fa fa-bars"></i></button>
+                  </div>
+                  <div class="col-sm-2 col-lg-1 col-4 text-right">
+                  <div class="topbarlink">
+                            <ul class="others_link">
+                                 <li title="Notifications" id="notification_pop">
+                                      <label class="notification_box" title="Notification"><i class="fa fa-bell-o"></i> <span class="badge">2</span></label>
+                                      <div class="dropdown_bx notification_bx">
+                                           <h3 class="dropdown_bx_title">Notification</h3>
+                                           <div class="dropdown_bx_body">
+                                                <ul class="notification_list">
+                                                     <li>
+                                                          <a href="#">
+                                                               <div class="noti_dtls">
+                                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                                               </div>
+                                                          </a>
+                                                     </li>
+                                                     <li>
+                                                          <a href="#">
+                                                               <div class="noti_dtls">
+                                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                                               </div>
+                                                          </a>
+                                                     </li>
+                                                    
+                                                </ul>
+                                           </div>
+                                           <!-- <div class="dropdown_footer">
+                                                <a href="notifications.html">See All</a>
+                                           </div> -->
+                                      </div>
+                                 </li>
+                            </ul>
+                            <div class="profile_sec">
+                                 <div class="display-middle">
+                                      <div class="profile_img" id="profile_click"  title="Dipan Karmakar">
+                                           <img src="images/user.jpg" alt="">
+                                      </div>
+                                 </div>
+                                 <div class="dropdown_profile">
+                                      <ul>
+                                           <li><a href="profile.html"><span><i class="fa fa-user"></i></span> Profile</a></li>
+                                           <li><a href="change-password.html"><span><i class="fa fa-lock"></i></span> Change Password</a></li>
+                                           <li><a href="login.html"><span><i class="fa fa-sign-out"></i></span> Logout</a></li>
+                                      </ul>
+                                 </div>
+                            </div>
+                       </div>
+                  </div>
+             </div>
+        </div>
+<div class="dash-container">              
+    <div class="row justify-content-start">  
+        <div class="col-lg-12">
+            <div class="dash_card searchfilter" style="display: none;">
+                <h5>Advance Search</h5>
+                <hr>
+                <div class="row">
+                    <div class="col-sm-6 col-lg-3 mb-3">
+                        <label for="">Vendor</label>
+                        <select name="" class="form-control" id="filter_id" onchange="return filterBranchvendor()">
+                        <option value="">--Vendor--</option>
+                        <option value="40">Floridatset2</option>
+                        <option value="38">Test Test</option>
+                        <option value="41">Tsst Vendor</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 mb-3">
+                        <label for="">Product Name</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col-sm-6 col-lg-3 mb-3">
+                        <label for="">SKU Code</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col-sm-6 col-lg-3 mb-3">
+                        <label for="">Category</label>
+                        <select name="" class="form-control">
+                        <option value="">--Category--</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 mb-3">
+                        <label for="">Brand</label>
+                        <select name="" class="form-control">
+                        <option value="">--Brand--</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 mb-3">
+                        <label for="">Specification</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col-sm-6 col-lg-3 mb-3">
+                        <label for="">UOM</label>
+                        <select name="" class="form-control">
+                        <option value="">--UOM--</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 mb-3">
+                        <label for="">Price</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col-sm-12">
+                        <button type="button" class="btn btn_common">Search</button>
+                    </div>
+                </div>
+            </div>
+            <div class="dash_card">
+                <h1 class="title">All Products
+                <button type="button" title="Advance Search" onclick="$('.searchfilter').slideToggle();$(this).text( ($(this).text() == '&#10005;' ? '&#x1F50E;&#xFE0E;' : '&#10005;') )" class="btn btn_common">&#x1F50E;&#xFE0E;</button>
+                </h1>
+                <div class="crd_body">
+                    <div class="extra_button">
+                        <a href="#" class="btn btn-danger" title="Download Sample"><i class="fa fa-download"></i></a>
+                        <button class="btn btn-success" data-bs-toggle="modal" data-bs-target=".uploadsample" type="button"><i class="fa fa-upload"></i></button>   
+                        <a href="add-product.php" class="btn btn_common mt-0" title="Add New"><i class="fa fa-plus"></i></a>                
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table excpet_printbtndatatable" >
+                            <thead>  
+                                <tr>
+                                    <th style="width:59px;">Sl No</th>
+                                    <th style="width:10px;text-align:center;">Star</th>
+                                    <th style="width:59px;">Image</th>
+                                    <th style="min-width:150px;">Product Name</th>
+                                    <th style="min-width:150px;">SKU Code</th>
+                                    <th style="min-width:100px;">Category</th>
+                                    <th style="min-width:100px;">Brand</th>
+                                    <th style="min-width:100px;">Specification</th>
+                                    <th style="min-width:70px;">UOM</th>
+                                    <th style="min-width:70px;">Price</th>
+                                    <th style="min-width:100px;width:100px;">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody> 
+                                <tr>
+                                    <td> 1</td>
+                                    <td style="text-align:center;"><i class="fa fa-star text-warning"></i></td>
+                                    <td><img src="images/product_598641654670554.jpeg" alt=""></td>
+                                    <td>Laminates</td>
+                                    <td>PY079	</td>
+                                    <td>Metal</td>
+                                    <td>Abrand</td>
+                                    <td>Test Pro</td>
+                                    <td>Cm</td>
+                                    <td>4000.00</td>
+                                    <td>
+                                        <ul class="button-ico-list">
+                                            <li><a href="#" class="edit_btn" title="Edit"><i class="fa fa-pencil"></i></a></li>
+                                            <li><a href="vandor-founded-list.php" class="view_btn" title="List Vandor"><i class="fa fa-list"></i></a></li>
+                                            <li><a href="#" class="del_btn" title="Delete"><i class="fa fa-trash-o" ></i></a></li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            
+                            </tbody> 
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>   
+    </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade uploadsample" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header bg-primary">
+        <h5 class="modal-title text-white" id="exampleModalLabel">Bulk Upload</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form action="">
+            <div class="row">
+                <div class="col-lg-12">
+                    <label for="">UPLOAD FILE (.XLSX , XLS)</label>
+                    <input type="file" class="form-control mb-3">
+                </div>
+              
+                <div class="col-lg-12 text-end">
+                    <hr>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Save</button>
+                </div>
+            </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="js/datatable/pdfmake.min.js"></script>
+<script type="text/javascript" src="js/datatable/vfs_fonts.js"></script>
+<script type="text/javascript" src="js/datatable//datatables.min.js"></script>
+<script type="text/javascript" src="js/custom.js?v=1"></script>
+</body>
+</html>
+

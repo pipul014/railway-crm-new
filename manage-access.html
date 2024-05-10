@@ -1,0 +1,379 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="content-language" content="en-us">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<title>RailwayCRM </title>
+
+<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+<link type="text/css" rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/datatable/datatables.min.css"/>
+<link type="text/css" rel="stylesheet" href="css/buttons.bootstrap5.min.css">
+<link type="text/css" rel="stylesheet" href="css/style.css?v=1">
+<link type="text/css" rel="stylesheet" href="css/responsive.css?v=1">
+<link type="image/ico" rel="icon" href="img/fabicon.png">
+</head>
+
+<body>
+<div class="wrap">
+    <aside class="menubar">
+        <div class="header_title">
+             <img src="images/logo.png" alt="">
+        </div>
+        <div class="menus">
+             <div class="category_filter">
+                  <h2>Menus </h2>
+                  <div id="accordian">
+                      <ul>
+                            <li class="active">
+                                 <h3><a href="index.html"> <span><i class="fa fa-tachometer"></i></span> Dashboard</a></h3>
+                            </li>
+                      </ul>
+                      <ul>
+                            <li>
+                                 <h3><a href="#"><span><i class="fa fa-user"></i></span>Admin</a></h3>
+                                 <ul>
+                                      <li><a href="admin-role.html">Admin Role</a></li>
+                                      <li><a href="admin-users.html">Admin Users</a></li>
+                                      <li><a href="manage-access.html">Manage Access</a></li>
+                                 </ul>
+                            </li>
+                            <li>
+                                 <h3><a href="#"><span><i class="fa fa-shield"></i></span>Login History</a></h3>
+                                 <ul>
+                                      <li><a href="my-history.html">My History</a></li>
+                                      <li><a href="all-history.html">All History</a></li>
+                                 </ul>
+                            </li>
+                            <li>
+                                 <h3><a href="#"><span><i class="fa fa-product-hunt"></i></span>Product</a></h3>
+                                 <ul>
+                                      <li><a href="add-product.html">Add Product</a></li>
+                                      <li><a href="all-product.html">All Product</a></li>
+                                      <li><a href="category-master.html">Category Master</a></li>
+                                      <li><a href="service-master.html">Service Master</a></li>
+                                      <li><a href="brand-master.html">Brand Master</a></li>
+                                      <li><a href="uom-master.html">UOM Master</a></li>
+                                 </ul>
+                            </li>
+                            <li>
+                                 <h3><a href="#"><span><i class="fa fa-snowflake-o"></i></span>Vendor</a></h3>
+                                 <ul>
+                                      <li><a href="registration-link.html">Registration Link</a></li>
+                                      <li><a href="vandor-type.html">Vendor Type</a></li>
+                                      <li><a href="add-vandor.html">Add Vandor</a></li>
+                                      <li><a href="vandor-list.html">Vandor List</a></li>
+                                      <li><a href="terms-and-condition.html">Terms & Condition</a></li>
+                                 </ul>
+                            </li>
+                            <li>
+                                 <h3><a href="#"><span><i class="fa fa-cubes"></i></span>Branch</a></h3>
+                                 <ul>
+                                      <li><a href="state-master.html">State</a></li>
+                                      <li><a href="pincode-master.html">PIN Code</a></li>
+                                      <li><a href="branch.html">All Branch</a></li>
+                                      <li><a href="employee.html">Employee</a></li>
+                                      <li><a href="branch-product-request.html">Product Request</a></li>
+                                      <li><a href="service-request.html">Service Request</a></li>
+                                 </ul>
+                            </li>
+                            <li>
+                                 <h3><a href="#"><span><i class="fa fa-bar-chart"></i></span>Stock Management</a></h3>
+                                 <ul>
+                                      <li><a href="stock-list.html">Stock List</a></li>
+                                      <li><a href="stock-report.html">Stock Report</a></li>
+                                 </ul>
+                            </li>
+                      </ul>
+                  </div>
+              </div>
+        </div>
+        <div class="aside-footer">
+             <span>&copy 2022 | RailwayCRM </span>
+        </div>
+   </aside>
+
+   <div class="backdrop-layout"></div>
+   <div class="main_body">
+        <div class="topmenubar">
+             <div class="row justifu-content-right">
+                  <div class="col-sm-10 col-lg-11 col-8">
+                       <button class="collapse_nav"><i class="fa fa-bars"></i></button>
+                  </div>
+                  <div class="col-sm-2 col-lg-1 col-4 text-right">
+                  <div class="topbarlink">
+                            <ul class="others_link">
+                                 <li title="Notifications" id="notification_pop">
+                                      <label class="notification_box" title="Notification"><i class="fa fa-bell-o"></i> <span class="badge">2</span></label>
+                                      <div class="dropdown_bx notification_bx">
+                                           <h3 class="dropdown_bx_title">Notification</h3>
+                                           <div class="dropdown_bx_body">
+                                                <ul class="notification_list">
+                                                     <li>
+                                                          <a href="#">
+                                                               <div class="noti_dtls">
+                                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                                               </div>
+                                                          </a>
+                                                     </li>
+                                                     <li>
+                                                          <a href="#">
+                                                               <div class="noti_dtls">
+                                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                                               </div>
+                                                          </a>
+                                                     </li>
+                                                    
+                                                </ul>
+                                           </div>
+                                           <!-- <div class="dropdown_footer">
+                                                <a href="notifications.html">See All</a>
+                                           </div> -->
+                                      </div>
+                                 </li>
+                            </ul>
+                            <div class="profile_sec">
+                                 <div class="display-middle">
+                                      <div class="profile_img" id="profile_click"  title="Dipan Karmakar">
+                                           <img src="images/user.jpg" alt="">
+                                      </div>
+                                 </div>
+                                 <div class="dropdown_profile">
+                                      <ul>
+                                           <li><a href="profile.html"><span><i class="fa fa-user"></i></span> Profile</a></li>
+                                           <li><a href="change-password.html"><span><i class="fa fa-lock"></i></span> Change Password</a></li>
+                                           <li><a href="login.html"><span><i class="fa fa-sign-out"></i></span> Logout</a></li>
+                                      </ul>
+                                 </div>
+                            </div>
+                       </div>
+                  </div>
+             </div>
+        </div>
+<div class="dash-container">              
+    <div class="row justify-content-start">  
+        <div class="col-lg-12">
+            <div class="dash_card">
+                <h1 class="title">Manage Access
+                </h1>
+                <div class="crd_body">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group" style="max-width: 230px;">
+                            <label style="text-transform: none">Select Admin Type</label>
+                            <select class="form-control mb-3" name="role" id="role" required="" onchange="roleChange(this.value)">
+                                <option selected="" value="1">Admin </option>
+                                <option value="2">Employee </option>
+                                <option value="4">Manager </option>
+                            </select>
+                            </div>
+                            <hr>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <h4 class="card-title">
+                            <input type="checkbox"  class="form-check-input" value="116" checked="" name="check[]">Dashboard
+                            </h4>
+                            <div class="custom-control custom-checkbox">
+                            <input type="checkbox"  class="form-check-input" class="custom-control-input" id="Dashboard" value="116" checked="" name="check[]">
+                            <label class="custom-control-label" for="Dashboard">Dashboard</label>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <h4 class="card-title">
+                            <input type="checkbox"  class="form-check-input" value="1" checked="" name="check[]">Admin
+                            </h4>
+                            <div class="custom-control custom-checkbox">
+                            <input type="checkbox"  class="form-check-input" class="custom-control-input" id="Admin Role " value="2" checked="" name="check[]">
+                            <label class="custom-control-label" for="Admin Role ">Admin Role </label>
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                            <input type="checkbox"  class="form-check-input" class="custom-control-input" id="Admin User " value="65" checked="" name="check[]">
+                            <label class="custom-control-label" for="Admin User ">Admin User </label>
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                            <input type="checkbox"  class="form-check-input" class="custom-control-input" id="Manage Access " value="121" checked="" name="check[]">
+                            <label class="custom-control-label" for="Manage Access ">Manage Access </label>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <h4 class="card-title">
+                            <input type="checkbox"  class="form-check-input" value="140" checked="" name="check[]">Login History
+                            </h4>
+                            <div class="custom-control custom-checkbox">
+                            <input type="checkbox"  class="form-check-input" class="custom-control-input" id="My History " value="141" checked="" name="check[]">
+                            <label class="custom-control-label" for="My History ">My History </label>
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                            <input type="checkbox"  class="form-check-input" class="custom-control-input" id="All History " value="142" checked="" name="check[]">
+                            <label class="custom-control-label" for="All History ">All History </label>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <h4 class="card-title">
+                            <input type="checkbox"  class="form-check-input" value="123" checked="" name="check[]">Product
+                            </h4>
+                            <div class="custom-control custom-checkbox">
+                            <input type="checkbox"  class="form-check-input" class="custom-control-input" id="Add Product " value="124" checked="" name="check[]">
+                            <label class="custom-control-label" for="Add Product ">Add Product </label>
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                            <input type="checkbox"  class="form-check-input" class="custom-control-input" id="List Product " value="125" checked="" name="check[]">
+                            <label class="custom-control-label" for="List Product ">List Product </label>
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                            <input type="checkbox"  class="form-check-input" class="custom-control-input" id="Category Master " value="122" checked="" name="check[]">
+                            <label class="custom-control-label" for="Category Master ">Category Master </label>
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                            <input type="checkbox"  class="form-check-input" class="custom-control-input" id="Add Service " value="144" checked="" name="check[]">
+                            <label class="custom-control-label" for="Add Service ">Add Service </label>
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                            <input type="checkbox"  class="form-check-input" class="custom-control-input" id="Brand Master " value="134" checked="" name="check[]">
+                            <label class="custom-control-label" for="Brand Master ">Brand Master </label>
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                            <input type="checkbox"  class="form-check-input" class="custom-control-input" id="UOM Master " value="135" checked="" name="check[]">
+                            <label class="custom-control-label" for="UOM Master ">UOM Master </label>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <h4 class="card-title">
+                            <input type="checkbox"  class="form-check-input" value="136" checked="" name="check[]">Vendor
+                            </h4>
+                            <div class="custom-control custom-checkbox">
+                            <input type="checkbox"  class="form-check-input" class="custom-control-input" id="Registration Link " value="139" checked="" name="check[]">
+                            <label class="custom-control-label" for="Registration Link ">Registration Link </label>
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                            <input type="checkbox"  class="form-check-input" class="custom-control-input" id="Vendor Type " value="143" checked="" name="check[]">
+                            <label class="custom-control-label" for="Vendor Type ">Vendor Type </label>
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                            <input type="checkbox"  class="form-check-input" class="custom-control-input" id="Add Vendor " value="137" checked="" name="check[]">
+                            <label class="custom-control-label" for="Add Vendor ">Add Vendor </label>
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                            <input type="checkbox"  class="form-check-input" class="custom-control-input" id="Vendor List " value="138" checked="" name="check[]">
+                            <label class="custom-control-label" for="Vendor List ">Vendor List </label>
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                            <input type="checkbox"  class="form-check-input" class="custom-control-input" id="Terms &amp; Condition " value="155" checked="" name="check[]">
+                            <label class="custom-control-label" for="Terms &amp; Condition ">Terms &amp; Condition </label>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <h4 class="card-title">
+                            <input type="checkbox"  class="form-check-input" value="147" checked="" name="check[]">Branch
+                            </h4>
+                            <div class="custom-control custom-checkbox">
+                            <input type="checkbox"  class="form-check-input" class="custom-control-input" id="Branch" value="147" checked="" name="check[]">
+                            <label class="custom-control-label" for="Branch">Branch</label>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <h4 class="card-title">
+                            <input type="checkbox"  class="form-check-input" value="160" checked="" name="check[]">Master
+                            </h4>
+                            <div class="custom-control custom-checkbox">
+                            <input type="checkbox"  class="form-check-input" class="custom-control-input" id="State " value="161" checked="" name="check[]">
+                            <label class="custom-control-label" for="State ">State </label>
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                            <input type="checkbox"  class="form-check-input" class="custom-control-input" id="Pincode " value="163" checked="" name="check[]">
+                            <label class="custom-control-label" for="Pincode ">Pincode </label>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <h4 class="card-title">
+                            <input type="checkbox"  class="form-check-input" value="145" checked="" name="check[]">Employee
+                            </h4>
+                            <div class="custom-control custom-checkbox">
+                            <input type="checkbox"  class="form-check-input" class="custom-control-input" id="Employee List " value="146" checked="" name="check[]">
+                            <label class="custom-control-label" for="Employee List ">Employee List </label>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <h4 class="card-title">
+                            <input type="checkbox"  class="form-check-input" value="148" checked="" name="check[]">Job Code
+                            </h4>
+                            <div class="custom-control custom-checkbox">
+                            <input type="checkbox"  class="form-check-input" class="custom-control-input" id="Branch Product Request " value="150" checked="" name="check[]">
+                            <label class="custom-control-label" for="Branch Product Request ">Branch Product Request </label>
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                            <input type="checkbox"  class="form-check-input" class="custom-control-input" id="Pending Product Request " value="158" name="check[]">
+                            <label class="custom-control-label" for="Pending Product Request ">Pending Product Request </label>
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                            <input type="checkbox"  class="form-check-input" class="custom-control-input" id="Accepted Product Request " value="159" name="check[]">
+                            <label class="custom-control-label" for="Accepted Product Request ">Accepted Product Request </label>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <h4 class="card-title">
+                            <input type="checkbox"  class="form-check-input" value="152" name="check[]">Generate Request
+                            </h4>
+                            <div class="custom-control custom-checkbox">
+                            <input type="checkbox"  class="form-check-input" class="custom-control-input" id="Generate Request" value="152" name="check[]">
+                            <label class="custom-control-label" for="Generate Request">Generate Request</label>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <h4 class="card-title">
+                            <input type="checkbox"  class="form-check-input" value="164" name="check[]">Generate Service Request
+                            </h4>
+                            <div class="custom-control custom-checkbox">
+                            <input type="checkbox"  class="form-check-input" class="custom-control-input" id="Generate Service Request" value="164" name="check[]">
+                            <label class="custom-control-label" for="Generate Service Request">Generate Service Request</label>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <h4 class="card-title">
+                            <input type="checkbox"  class="form-check-input" value="166" checked="" name="check[]">Service Request
+                            </h4>
+                            <div class="custom-control custom-checkbox">
+                            <input type="checkbox"  class="form-check-input" class="custom-control-input" id="Branch Service Request " value="165" checked="" name="check[]">
+                            <label class="custom-control-label" for="Branch Service Request ">Branch Service Request </label>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <h4 class="card-title">
+                            <input type="checkbox"  class="form-check-input" value="153" checked="" name="check[]">Stock Management
+                            </h4>
+                            <div class="custom-control custom-checkbox">
+                            <input type="checkbox"  class="form-check-input" class="custom-control-input" id="Stock &nbsp;List " value="154" checked="" name="check[]">
+                            <label class="custom-control-label" for="Stock &nbsp;List ">Stock &nbsp;List </label>
+                            </div>
+                            <div class="custom-control custom-checkbox">
+                            <input type="checkbox"  class="form-check-input" class="custom-control-input" id="Stock &nbsp;Report " value="162" checked="" name="check[]">
+                            <label class="custom-control-label" for="Stock &nbsp;Report ">Stock &nbsp;Report </label>
+                            </div>
+                        </div>
+                        <div class="col-md-12 text-left pt-4">
+                            <button type="button" onclick="edit()" class="btn btn_common">
+                            <i class="fa fa-save"></i> Submit </button>
+                        </div>
+                        </div>
+                </div>
+            </div>
+        </div>   
+    </div>
+</div>
+
+</div>
+</div>
+
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="js/datatable/pdfmake.min.js"></script>
+<script type="text/javascript" src="js/datatable/vfs_fonts.js"></script>
+<script type="text/javascript" src="js/datatable//datatables.min.js"></script>
+<script type="text/javascript" src="js/custom.js?v=1"></script>
+</body>
+</html>
+
